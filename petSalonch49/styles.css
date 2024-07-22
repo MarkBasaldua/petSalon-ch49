@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://example.com/luxury-pet-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.btn-primary {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3A7BC8;
+    border-color: #3A7BC8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+#register .card {
+    border-top: 5px solid #4A90E2;
+}
+
+#pets .card {
+    border-top: 5px solid #28a745;
+}
+
+#testimonials .card {
+    border-top: 5px solid #ffc107;
+}
+
+.form-control:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+}
